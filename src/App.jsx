@@ -59,10 +59,14 @@ export default function App() {
 
   useEffect(() => {
     if (!audioRef.current) return;
-    audioRef.current.play().catch(() => {});
+    audioRef.current.load();
   }, []);
 
-  const begin = () => { setScene('discovery'); setStage(0); };
+  const begin = () => {
+    if (audioRef.current) { audioRef.current.play().catch(() => {}); }
+    setScene('discovery');
+    setStage(0);
+  };
   const advance = () => setScene('apology');
   const goBack = () => {
     if (scene === 'reveal') { setScene('discovery'); }
