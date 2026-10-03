@@ -1,0 +1,15 @@
+export const memories = [
+  { image: '/photos/a.jpeg', caption: 'Some things are impossible to forget.', message: 'Some things are impossible to forget.' },
+  { image: '/photos/b.jpeg', caption: 'Some moments stay with us longer than we expect.', message: 'Some moments stay with us longer than we expect.' },
+  { image: '/photos/c.jpeg', caption: 'Some memories still make us smile.', message: 'Some memories still make us smile.' },
+  { image: '/photos/d.jpeg', caption: 'Funny how a tiny moment can become such a big memory.', message: 'Funny how a tiny moment can become such a big memory.' },
+  { image: '/photos/e.jpeg', caption: 'Maybe you have figured it out by now.', message: "Maybe you've figured it out by now." },
+  { image: '/photos/f.jpeg', caption: 'I keep coming back to this one.', message: 'I keep coming back to this one.' },
+  { image: '/photos/g.jpeg', caption: 'I do. Every detail.', message: 'I do. Every detail.' },
+  { image: '/photos/h.jpeg', caption: 'This was the beginning of something I never knew would mean so much to me.', message: 'This was the beginning of something I never knew would mean so much to me.' },
+  { image: '/photos/i.jpeg', caption: 'The first time our hands found each other, everything felt a little different.', message: 'The first time our hands found each other, everything felt a little different.' },
+  { image: '/photos/j.jpeg', caption: 'I loved the way you looked at me, even when you thought I wasn\'t looking.', message: 'I loved the way you looked at me, even when you thought I wasn\'t looking.' },
+  { image: '/photos/k.jpeg', caption: 'I miss this version of us.', message: 'I miss this version of us.' },
+  { image: '/photos/l.jpeg', caption: 'Maybe you know where this is going.', message: 'Maybe you know where this is going.' },
+  { image: '/photos/m_video.mp4', caption: 'And this... this is us.', message: 'Some things are better felt than said.' },
+];
